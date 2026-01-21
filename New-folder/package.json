@@ -1,0 +1,20 @@
+
+{
+  "name": "alfreed-net-app",
+  "version": "1.0.0",
+  "description": "تطبيق شبكة الفريد نت اللاسلكية الرسمي",
+  "scripts": {
+    "build": "rm -rf www && mkdir -p www && cp index.html www/index.html && cp metadata.json www/metadata.json && cp -r assets www/ && sed -i \"s/REPLACE_WITH_API_KEY/${API_KEY}/g\" www/index.html || echo 'Warning: API_KEY not set'",
+    "sync": "npx cap sync android",
+    "resources": "capacitor-assets generate"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@google/genai": "^1.37.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/assets": "^3.0.0"
+  }
+}

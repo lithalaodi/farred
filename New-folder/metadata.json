@@ -1,0 +1,7 @@
+{
+  "name": "Copy of شبكة الفريد نت اللاسلكية - Alfred Net Wireless",
+  "description": "تطبيق بوابة شبكة الفريد نت اللاسلكية للوصول السريع إلى الاستراحة، البث المباشر، وبيانات الكرت مع مساعد ذكي.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

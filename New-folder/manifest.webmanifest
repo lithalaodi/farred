@@ -1,0 +1,17 @@
+
+{
+	"name": "شبكة الفريد نت",
+	"short_name": "ALFREED",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#f4811f",
+	"icons": [
+		{
+			"src": "assets/icon.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	]
+}
